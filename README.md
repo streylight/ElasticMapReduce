@@ -1,2 +1,2 @@
 # ElasticMapReduce
-Elastic MapReduce implementation using Hadoop
+Elastic MapReduce implementation using Hadoop to find the top 5 temperatures for each year from 2006-2010. The datasets used were from the National Weather Service.  The project was setup and tested on Hadoop 2.2.0 running on a Ubuntu 12.04 VM. The output for the maximum and minimum values for temperature and wind are written directly to the output file “part-r-00000” which gets created in the Output folder under the project directory.  The values for each category and listed separately but in the correct ascending order.
